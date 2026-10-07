@@ -1,4 +1,4 @@
-export interface ItemPedidoDTO {
+export interface produtoDTO {
     idProduto?: number;
     descricao?: string;
     qtd_estoque: number;
