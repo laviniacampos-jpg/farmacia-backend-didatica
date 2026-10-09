@@ -1,7 +1,8 @@
-export interface produtoDTO {
+export interface ProdutoDTO {
     idProduto?: number;
-    descricao?: string;
-    qtd_estoque: number;
-    qtd_min_estoque: number;
+    descricao: string;
+    validade?: string | null;
+    preco: number;
+    qtdEstoque: number;
+    qtdMinEstoque: number;
 }
-

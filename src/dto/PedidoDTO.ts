@@ -1,14 +1,10 @@
-export interface produtoDTO {
-    idItemProduto?:number;
-    idProduto?: number;
-    descricao?: string;
-    qtd_produto: number;
-    produto: number;
+
+
+import type { ItemPedidoDTO } from "./ItemPedidoDTO.js";
+
+export interface PedidoDTO {
+    idVenda?: number;
+    idCliente: number;
+    dataVenda?: Date;
+    itens: ItemPedidoDTO[];
 }
-
-
-
-
-
-
-
